@@ -1,0 +1,57 @@
+#grid-container
+{
+    display: grid;
+    grid-template-rows: repeat(4, 100vh) 500px;
+    grid-template-areas: 
+    "home"
+    "about"
+    "portfolio"
+    "contact"
+    "footer";
+}
+
+#home
+{
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+
+#logo, #banner, #scroll
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#about
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#about-left, #about-right
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-right img
+{
+    width: 100%;
+}
+
+#skill-list
+{
+    display: grid;
+    grid-template-columns: repeat(9, 64px);
+    list-style-type: none;
+    grid-gap: 10px;
+    padding: 20px 0 0 0;
+}
+
+.skill-list-item img
+{
+    height: 64px;
+    width: 64px;
+}
