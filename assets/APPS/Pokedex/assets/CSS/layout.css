@@ -1,0 +1,26 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#pokemon
+{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#pokemon-list
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.pokemon-card
+{
+    margin: 20px;
+    flex: 0 1 calc(20% - 40px);
+}

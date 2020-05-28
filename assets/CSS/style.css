@@ -1,69 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
 }
 
-html 
+
+header
 {
-    scroll-behavior: smooth;
+    padding: 10px 40px 10px 40px;
+    color: white;
+}
+
+header.active
+{
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav-list
+{
+    list-style-type: none;
+}
+
+.nav-list-item
+{
+    font-size: 20px;
+}
+
+.nav-list-item:hover
+{
+    cursor: pointer;
+    border-bottom: 2px solid yellow;
+    margin-bottom: -2px;
+}
+
+#top i
+{
+    visibility: hidden;
+}
+
+#home, #about, #work
+{
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3); 
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
 }
 
 #home
 {
-    background-image: url('../MEDIA/IMG/home-bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
 }
 
-#logo, #scroll, #banner
+#home-title
 {
-    color: white;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-
-#banner h1
-{
+    font-size: 180px;
     font-weight: 700;
-    font-size: 60px;
     text-align: center;
 }
 
-#scroll i
+#underline
 {
-    font-size: 40px;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    cursor: pointer;
+    font-size: 25px;
+    font-size: 10vh;
+    font-weight: 400;
+}
+
+.underline-hidden
+{
+    visibility: hidden;
+}
+
+#home-down
+{
+    font-size: 30px;
     color: white;
 }
 
-#scroll a
+#home-down i, #top i
 {
-    text-decoration: none;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
-.bounce-1 {
-    animation-name: bounce-1;
+.arrow
+{
+    cursor: pointer;
+}
+
+.bounce 
+{
+    animation-name: bounce;
     animation-timing-function: linear;
 }
 
-@keyframes bounce-1 {
+@keyframes bounce {
     0%   { transform: translateY(0); }
-    50%  { transform: translateY(-10px); }
+    50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
 
-#about-left #description
+.bounce-top
 {
-    padding: 0px 40px 0px 40px;
+    animation-name: bounce-top;
+    animation-timing-function: linear;
 }
 
-#description h2
+@keyframes bounce-top {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+#about, #work, #contact
 {
-    font-size: 80px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
+#about h2
+{
+    color: white;
+    font-size: 4vh;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#about-image img
+{
+    width: 100%;
+}
+
+#about p
+{
+    color: white;
+}
+
+#about p a
+{
+    color: white;
+}
+
+
+.about-socials li
+{
+    padding: 0 10px 0 10px;
+    font-size: 22px;
+}
+
+.about-socials li:first-child
+{
+    padding-left: 0px;
+}
+
+.about-socials li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.about-socials li a:hover
+{
+    color: #8360c3;
+}
+
+.technologies-item img
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+#work h2, #contact h2
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 50px 0px 50px 0;
+}
+
+#work h2
+{
+    align-self: center;
+}
+
+#work-list
+{
     padding-bottom: 40px;
+}
+
+.work-list-item
+{
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+}
+
+.work-list-item-expanded
+{
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0px;
+    transition: max-height 0.2s ease-out;
+}
+
+.work-image img
+{
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.work-info
+{
+    margin: 0px 20px 20px 20px;
+}
+
+.work-title
+{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.work-subline
+{
+    font-weight: 200;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.work-description
+{
+    margin-bottom: 20px;
+}
+
+.work-tech
+{
+    margin-bottom: 50px;
+    list-style-type: none;
+    color: gray;
+}
+
+.work-link
+{
+    background-color: #8360c3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.work-button-i
+{
+    padding-left: 20px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.work-link:hover
+{
+    background-color: #2ebf91;
+    cursor: pointer;
+}
+
+.wli-gallery img
+{
+    width: 80%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#footer
+{
+    background-color: black;
+    color: white;
+}
+
+#footer p
+{
+    padding: 0 0 0 30px;
+}
+
+
+.socials li
+{
+    padding: 0 10px 0 10px;
+}
+
+#footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover
+{
+    color: #8360c3;
+}
+
+@media only screen and (max-width: 940px)
+{
+    #home-title
+    {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 560px)
+{
+    #home-title
+    {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 440px)
+{
+    #home-title
+    {
+        font-size: 40px;
+    }
+
+    #about h2, #work h2
+    {
+        font-size: 30px;
+    }
+
+    #footer
+    {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    #footer
+    {
+        font-size: 10px;
+    }
+}
+
+.prev, .next
+{
+    cursor: pointer;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 30px;
+    width: auto;
+}
+
+.prev:hover
+{
+    color: #8360c3;
+}
+
+.next:hover
+{
+    color: #2ebf91;
 }

@@ -10,46 +10,311 @@
 </head>
 <body>
     <div id="grid-container">
-        <div id="home">
+        <header id="header">
             <div id="logo">
-                <!--<img src="assets/MEDIA/IMG/PortfolioLogo.png" alt="">-->
+                <img src="assets/MEDIA/IMG/PortfolioLogo.png" alt="Logo For Callum Altham's Portfolio">
             </div>
-            <div id="banner">
-                <h1>Hi, I'm Callum. I develop websites, <br> software and applications.</h1>
+            <nav id="navigation">
+                <ul id="nav-list">
+                    <li class="nav-list-item">Home</li>
+                    <li class="nav-list-item">About</li>
+                    <li class="nav-list-item">Work</li>
+                </ul>
+            </nav>
+            <div id="top">
+                <i class="fas fa-chevron-up bounce-top arrow" id="top-i"></i>
             </div>
-            <div id="scroll">
-                <h2>See what I can do</h2>
-                <a href="#about"><i class="fas fa-chevron-down bounce-1"></i></a>
-            </div>
-        </div>
-        <div id="about">
-            <div id="about-left">
-                <div id="description">
-                    <h2>Hi, I'm Callum.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo architecto consequuntur praesentium excepturi enim nihil rem autem itaque quas magnam, nesciunt dignissimos sed obcaecati nostrum aliquid sint nam, quibusdam beatae?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis sed voluptatum provident cumque, natus minus dolore ipsa ab. Dicta obcaecati, ipsa repellendus blanditiis omnis doloribus. Quas aperiam recusandae ad nulla.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat quisquam veniam enim quo ea, magni error sint ducimus dolore provident modi maxime aperiam animi molestias officia pariatur molestiae quasi asperiores!
-                    </p>
-                    <ul id="skill-list">
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/html.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/css.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/JS.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/php.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/java.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/python.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/csharp.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/c++.png" alt=""></li>
-                        <li class="skill-list-item"><img src="assets/MEDIA/IMG/androidstudio.png" alt=""></li>
-                    </ul>
+        </header>
+        <main>
+            <section id="home">
+                <div>
+                    <span id="home-title"></span>
+                    <span id="underline">_</span>
                 </div>
-            </div>
-            <div id="about-right">
-                <img src="assets/MEDIA/IMG/devices.png" alt="">
-            </div>
-        </div>
-        <div id="portfolio"></div>
-        <div id="contact"></div>
-        <footer id="footer"></footer>
+                <div id="home-down">
+                    <i class="fas fa-chevron-down bounce arrow"></i>
+                </div>
+            </section>
+            <section id="about">
+                <div id="about-info">
+                    <div>
+                        <h2>Hello, I'm Callum Altham.</h2>
+                        <p>I'm a developer from Liverpool, England with experience in web, software and mobile application technologies, including</p>
+                        <ul id="technologies">
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/html.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/css.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/JS.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/php.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/java.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/python.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/csharp.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/c++.png" alt=""></li>
+                            <li class="technologies-item"><img src="assets/MEDIA/IMG/androidstudio.png" alt=""></li>
+                        </ul>
+                        <p>I also have a passion for machine learning, AI and its implications on cyber security</p>
+                        <p>My full CV can be found <a href="assets/MEDIA/CV.pdf" target="_blank">here</a></p>
+                        <br>
+                        <p>If you want to talk about a potential project, need advice or simply want to chat, you can
+                            just shoot me an email at <a href="mailto:callumaltham1@gmail.com">callumaltham1@gmail.com</a>.
+                            <br>Or contact me on one of the social media sites listed below<br>After all, it does all go to the same place!
+                        </p>
+                        <ul class="about-socials">
+                            <li><a href="https://www.twitter.com/CAlthamDev"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/CallumAltham/"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/callumaltham"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="mailto:callumaltham1@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div id="about-image">
+                        <img src="assets/MEDIA/IMG/devices-removebg-preview.png" alt="Collection of devices">
+                    </div>
+                </div>
+            </section>
+            <section id="work">
+                <h2>Some Of My Created Works</h2>
+                <div id="work-list">
+                    <div class="work-list-item">
+                        <div class="work-list-item-small">
+                            <div class="work-image">
+                                <img src="assets/MEDIA/IMG/portfolio.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h3 class="work-title">Personal Portfolio</h3>
+                                <h4 class="work-subline">Showing Myself To The World</h4>
+                                <p class="work-description">This is the website that you are currently reading this on.
+                                   <br>I designed it in order to convey information about myself, my passions and my created works without bombarding readers with information</p>
+                                <h4 class="work-subline">Technologies Used</h4>
+                                <ul class="work-tech">
+                                    <li class="work-tech-item">HTML</li>
+                                    <li class="work-tech-item">CSS</li>
+                                    <li class="work-tech-item">JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-list-item">
+                        <div class="work-list-item-small">
+                            <div class="work-image">
+                                <img src="assets/MEDIA/IMG/buggytracker.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h3 class="work-title">Buggy Tracker</h3>
+                                <h4 class="work-subline">Effective and Safe Vehicle Tracking</h4>
+                                <p class="work-description">Buggy Tracker is a cross platform application developed as part of a second year university group project.
+                                   <br>It utilises a separately created mobile application placed on small, on-campus vehicles to pinpoint GPS location and then effectively display
+                                said vehicle locations on a user friendly dashboard.</p>
+                                <h4 class="work-subline">Technologies Used</h4>
+                                <ul class="work-tech">
+                                    <li class="work-tech-item">HTML</li>
+                                    <li class="work-tech-item">CSS</li>
+                                    <li class="work-tech-item">JS</li>
+                                    <li class="work-tech-item">PHP</li>
+                                    <li class="work-tech-item">SQL</li>
+                                    <li class="work-tech-item">Google Maps API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="work-list-item-expanded">
+                            <div class="wli-gallery">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-list-item">
+                        <div class="work-list-item-small">
+                            <div class="work-image">
+                                <img src="assets/MEDIA/IMG/pokedex.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h3 class="work-title">Pokedex</h3>
+                                <h4 class="work-subline">Gotta Catch 'Em All</h4>
+                                <p class="work-description">This was my first ever attempt at making use of Web APIs and I decided to implement a small, Pokedex to test my new knowledge.
+                                <h4 class="work-subline">Technologies Used</h4>
+                                <ul class="work-tech">
+                                    <li class="work-tech-item">HTML</li>
+                                    <li class="work-tech-item">CSS</li>
+                                    <li class="work-tech-item">JS</li>
+                                    <li class="work-tech-item">PokéAPI</li>
+                                </ul>
+                                <a class="work-link" target="_blank" href="assets/APPS/Pokedex/index.html">View Project <i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-list-item">
+                        <div class="work-list-item-small">
+                            <div class="work-image">
+                                <img src="assets/MEDIA/IMG/weather.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h3 class="work-title">WeatherFind</h3>
+                                <h4 class="work-subline">Who Needs Weathermen?</h4>
+                                <p class="work-description">This is a simple project I created to test a new API while also honing my JavaScript skills.<br>
+                                    Users are able to search for a location or allow location access in order for the browser to find their current location and
+                                    display the relevant weather information. The site background will also change accordingly.<br>
+                                    Given units of temperature can also be freely changed from Celsius to Farenheit with a simple button.
+                                <h4 class="work-subline">Technologies Used</h4>
+                                <ul class="work-tech">
+                                    <li class="work-tech-item">HTML</li>
+                                    <li class="work-tech-item">CSS</li>
+                                    <li class="work-tech-item">JS</li>
+                                    <li class="work-tech-item">OpenWeatherMap API</li>
+                                </ul>
+                                <a class="work-link" target="_blank" href="assets/APPS/Weather/index.html">View Project <i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </section>
+            <section id="footer">
+                <p>&#169; Callum Altham 2020</p>
+                <ul class="socials">
+                    <li><a href="https://www.twitter.com/CAlthamDev"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/CallumAltham/"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/callumaltham"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="mailto:callumaltham1@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+                <p>Icons Provided By <a href="fontawesome.com">fontawesome.com</a></p>
+            </section>
+        </main>
     </div>
 </body>
+<script>
+    window.onscroll = function() {headerChange()};
+
+    function headerChange()
+    {
+        if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300)
+        {
+            document.getElementById("top-i").style.visibility = "visible";
+            document.getElementById("header").classList.add("active");
+        }else
+        {
+            document.getElementById("top-i").style.visibility = "hidden";
+            document.getElementById("header").classList.remove("active");
+        }
+    }
+
+    let down = document.getElementById("home-down");
+    down.addEventListener('click', function()
+    {
+        location.href = "#about";
+    });
+
+
+    let up = document.getElementById("top-i");
+    up.addEventListener('click', function()
+    {
+        location.href = "#home";
+    });
+
+    consoleText(['Hello World!', 'Welcome'], ['yellow', 'MediumSpringGreen']);
+
+    function consoleText(words, colors)
+    {
+        let visible = true;
+        let underline = document.getElementById("underline");
+        let letterCount = 1;
+        let x = 1;
+        let waiting = false;
+        let target = document.getElementById("home-title");
+        target.style.color = colors[0];
+        underline.style.color = colors[0];
+        window.setInterval(function() 
+        {
+            if(letterCount === 0 && waiting === false)
+            {
+                waiting = true;
+                target.innerHTML = words[0].substring(0, letterCount);
+                window.setTimeout(function()
+                {
+                    let usedColor = colors.shift();
+                    colors.push(usedColor);
+                    let usedWord = words.shift();
+                    words.push(usedWord);
+                    x = 1;
+                    target.style.color = colors[0];
+                    underline.style.color = colors[0];
+                    letterCount += x;
+                    waiting = false;
+                }, 1000)
+            }else if(letterCount == words[0].length + 1 && waiting === false)
+            {
+                waiting = true;
+                window.setTimeout(function()
+                {
+                    x = -1;
+                    letterCount += x;
+                    waiting = false;
+                }, 1000);
+            }
+            else if(waiting === false)
+            {
+                target.innerHTML = words[0].substring(0, letterCount);
+                letterCount += x;
+            }
+        }, 120);
+
+        window.setInterval(function()
+        {
+            if(visible === true)
+            {
+                underline.classList.add("underline-hidden");
+                visible = false;
+            }else
+            {
+                underline.classList.remove("underline-hidden");
+                visible = true;
+            }
+        }, 400);
+    }
+
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n)
+    {
+        let i;
+        let slides = document.getElementsByClassName("work-list-item");
+        if(n > slides.length){slideIndex = 1 };
+        if(n < 1) {slideIndex = slides.length};
+        for(i = 0; i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex-1].style.display = "block";
+    }
+</script>
+<script>
+    let coll = document.getElementsByClassName("work-link");
+    for(let i = 0; i < coll.length; i++)
+    {
+        coll[i].addEventListener("click", function()
+        {
+            let r = this.parentElement.parentElement;
+            let content = r.nextElementSibling;
+            console.log(content);
+            if(content.style.maxHeight)
+            {
+                content.style.maxHeight = null;
+                content.style.paddingTop = null;
+            }else
+            {
+                content.style.maxHeight = content.scrollHeight + "px";
+                content.style.paddingTop = "40px";
+            }
+        });
+    }
+</script>
 </html>

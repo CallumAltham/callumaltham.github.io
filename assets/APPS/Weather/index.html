@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherFind BETA</title>
+    <link rel="stylesheet" href="assets/CSS/main.css">
+</head>
+<body onload="locationLoad()">
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a location..."/>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">
+                </div>
+                <div class="date">
+                </div>
+                <div class="current">
+                    <div class="temp">
+                    </div>
+                    <div class="weather">
+                    </div>
+                    <div class="hi-low">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span>°F</span>
+            <label class="switch">
+                <input class="checkbox" type="checkbox" on>
+                <span class="slider round"></span>
+              </label>
+              <span>°C</span>
+        </footer>
+    </div>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>
