@@ -42,6 +42,12 @@ header.active
     margin-bottom: -2px;
 }
 
+.nav-list-item a
+{
+    text-decoration: none;
+    color: white;
+}
+
 #top i
 {
     visibility: hidden;
