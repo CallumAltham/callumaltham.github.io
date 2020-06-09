@@ -63,7 +63,8 @@ main
 #about-info
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    justify-items: center;
     width: 80%;
 }
 
@@ -84,13 +85,6 @@ main
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
-}
-
-#about-image
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #work
@@ -159,31 +153,17 @@ main
 
 @media only screen and (max-width: 1000px)
 {
-    #about-info, .work-list-item-small
+    .work-list-item-small
     {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
     }
-}
 
-@media only screen and (max-width: 650px)
-{
     #work-list
     {
-        grid-template-rows: 100px 1fr;
+        grid-template-rows: 1fr;
         grid-template-columns: 1fr;
     }
 
-    .work-list-item
-    {
-        grid-row: 2;
-    }
-
-    .prev, .next
-    {
-        grid-row: 1;
-        margin-right: 20px;
-    }
 
     .work-image img
     {
