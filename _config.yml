@@ -27,7 +27,7 @@ author:
   bio              : "Short biography for the left-hand sidebar"
   location         : "Liverpool, England, UK"
   employer         : "Edge Hill University"
-  uri              : "research.edgehill.ac.uk/en/persons/callum-altham"
+  uri              : "https://research.edgehill.ac.uk/en/persons/callum-altham"
   email            : "althamc@edgehill.ac.uk" 
 
   # Academic websites
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #
   researchgate     : # URL
 
   # Repositories and software development
