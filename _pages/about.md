@@ -11,3 +11,7 @@ redirect_from:
 
 ## About
 Example text
+
+## My Background
+
+## My Research
