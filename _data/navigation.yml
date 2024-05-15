@@ -19,6 +19,9 @@ main:
     
   - title: "Read My CV!"
     url: /files/Academic_CV.pdf
+
+  - title: "Contact"
+    url: /contact/
     
   # - title: "Guide"
   #   url: /markdown/
