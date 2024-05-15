@@ -24,9 +24,9 @@ author:
   avatar           : "staff photo.jpg"
   name             : "Callum Altham"
   pronouns         : "BSc. (Hons), MSc, AFHEA" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD Candidate in Computer Informatics and Graduate Teaching Assistant at Edge Hill University"
   location         : "Liverpool, England, UK"
-  employer         : "Edge Hill University"
+  employer         : "[Edge Hill University](https://edgehill.ac.uk)"
   uri              : "https://research.edgehill.ac.uk/en/persons/callum-altham"
   email            : "althamc@edgehill.ac.uk" 
 

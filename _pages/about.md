@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 # Callum Altham
-#### BSc. (Hons), MSc, AFHEA
-### Graduate Teaching Assistant
 
 ## About
 Example text
