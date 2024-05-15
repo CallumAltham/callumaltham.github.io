@@ -16,6 +16,12 @@
   }
 }
 
+@media (min-width: 57.8125em) {
+  .page {
+    padding-left: 0;
+  }
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
