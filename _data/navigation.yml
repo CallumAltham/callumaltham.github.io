@@ -16,12 +16,12 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  - title: "Read My CV!"
-    url: /files/Academic_CV.pdf
 
   - title: "Contact"
     url: /contact/
+
+  - title: "CV"
+    url: /files/Academic_CV.pdf
     
   # - title: "Guide"
   #   url: /markdown/
