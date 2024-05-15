@@ -26,7 +26,7 @@ Example text
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: blue;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -48,7 +48,7 @@ Example text
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: blue;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -101,7 +101,7 @@ Example text
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: blue;
   position: relative;
   border-radius: 6px;
 }
