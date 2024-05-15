@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-GB"
-title                    : "Callum Altham - Academic Portfolio"
+title                    : "Callum Altham"
 title_separator          : "-"
 name                     : &name "Callum Altham"
 description              : &description "personal description"
