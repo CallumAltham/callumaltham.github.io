@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Example text
+Hi, I'm Callum, a Graduate Teaching Assistant and PhD Student at [https://edgehill.ac.uk](Edge Hill University) in the United Kingdom working within the [https://edgehill.ac.uk/departments/academic/computerscience/](Computer Science Department).
 
 ## My Background
 
