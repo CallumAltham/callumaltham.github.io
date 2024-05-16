@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Callum Altham
-
-## About
 Example text
 
 ## My Background
