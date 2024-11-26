@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /employment
 title: "Employment History"
 author_profile: true
 redirect_from: 
