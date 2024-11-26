@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "staff photo.jpg"
   name             : "Callum Altham"
-  pronouns         : "BSc. (Hons), MSc, AFHEA" # example: "she/her"  
+  pronouns         : "BSc. (Hons), MSc, FHEA" # example: "she/her"  
   bio              : "PhD Candidate in Computer Informatics and Graduate Teaching Assistant at Edge Hill University"
   location         : "Liverpool, England, UK"
   employer         : "Edge Hill University"
@@ -45,7 +45,7 @@ author:
   dribbble         : # Username
   github           : "CallumAltham"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : 8408126/callum-altham
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
