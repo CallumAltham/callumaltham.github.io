@@ -18,8 +18,8 @@ main:
   - title: "Employment History"
     url: /employment/
 
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Badges"
+    url: /badges/
 
   - title: "Contact"
     url: /contact/
