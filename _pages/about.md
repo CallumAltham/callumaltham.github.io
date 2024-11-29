@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3766402" style='border:none;'></iframe>
+
 Hi, I'm Callum, a Graduate Teaching Assistant and PhD Student at [Edge Hill University](https://edgehill.ac.uk) in the United Kingdom working within the [Computer Science Department](https://edgehill.ac.uk/departments/academic/computerscience/), specialising in artificial intelligence and medical informatics. With a passion for both academia and industry, I combine teaching undergraduate and postgraduate computer science and cyber security courses with research in the field of AI and medical informatics.
 
 Having earned a Bachelor of Science degree in Computer Science, this educational background laid the groundwork for subsequent pursuits of a Master of Science degree in Cyber Security. Currently pursuing a Doctoral degree, I focus my research on the intersection of artificial intelligence and medical informatics. My doctoral thesis, titled "Early Detection and Diagnosis of Parkinson’s Disease Dementia Using Deep Learning" aims to develop innovative approaches to identify and diagnose Parkinson's Disease Dementia at an early stage, enabling timely intervention and improved patient care.
