@@ -1,10 +1,8 @@
 ---
-permalink: /employment
+layout: archive
 title: "Employment History"
+permalink: /employment/
 author_profile: true
-redirect_from: 
-  - /employment/
-  - /employment.html
 ---
 
 Coming soon...
